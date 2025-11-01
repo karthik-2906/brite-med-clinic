@@ -46,7 +46,7 @@
         }
 
         async populateServiceCards() {
-            const response = await fetch('js/services.json');
+            const response = await fetch('/js/services.json');
             const servicesData = await response.json();
 
             servicesData.forEach(service => {
@@ -63,7 +63,7 @@
         }
 
         async populateWcuCards() {
-            const response = await fetch('js/wcu.json');
+            const response = await fetch('/js/wcu.json');
             const wcuData = await response.json();
 
             wcuData.forEach(wcu => {
@@ -82,7 +82,7 @@
         }
 
         async populateDoctorsCards() {
-            const response = await fetch('../js/doctors.json');
+            const response = await fetch('/js/doctors.json');
             const doctorsData = await response.json();
 
             doctorsData.forEach(doctor => {
@@ -95,7 +95,7 @@
                         <h2 class="our-doctors__card-title">${doctor.name}</h2>
                         <p class="our-doctors__card-subtitle">${doctor.designation}</p>
                         <p class="our-doctors__card-subtitle text-dark-grey">License No: ${doctor.licenseNo}</p>
-                        <a href="/our-doctors/#${doctor.licenseNo}" class="our-doctors__card-btn">Learn More</a>
+                        <a href="our-doctors/#${doctor.licenseNo}" class="our-doctors__card-btn">Learn More</a>
                     </div>`;
 
                 this.doctorsCardContainer.appendChild(card);
@@ -103,7 +103,7 @@
         }
 
         async populateTestimonialsCards() {
-            const response = await fetch('js/testimonials.json');
+            const response = await fetch('/js/testimonials.json');
             const testimonialsData = await response.json();
 
             testimonialsData.forEach(testimonial => {
