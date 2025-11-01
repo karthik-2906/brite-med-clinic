@@ -1,0 +1,45 @@
+[
+    {
+        "img": "../assets/images/male-doctor.webp",
+        "imgAlt": "",
+        "name": "Dr. Praveen Kumar Subramaniam Thangaraj",
+        "designation": "General Dentist ︱ Medical Director",
+        "degrees": "B.D.S ︱ M.D.S. ︱ P.G.D.H.M.",
+        "licenseNo": "56802141-001",
+        "desc": "Dr. Praveen Kumar, a specialist in general and cosmetic dentistry has 17 years of experience across India, Oman, Abu Dhabi and Dubai. He holds qualifications including B.D.S., M.D.S. and P.G.D.H.M. and is proficient in English, Tamil, Hindi, Telugu, Arabic and Malayalam. Currently practicing in Dubai, he has a strong background in Cosmetic dentistry.",
+        "subsections": [
+            {
+                "title": "Experience",
+                "items": [
+                    "2008 - 2015 : India",
+                    "2015 - 2021 : Oman",
+                    "2021 - 2023 : Abu Dhabi",
+                    "2023 - Present : Dubai"
+                ]
+            }
+        ]
+    },
+    {
+        "img": "../assets/images/female-doctor.webp",
+        "imgAlt": "",
+        "name": "Dr. Abinaya Alagarsamy",
+        "designation": "Orthodontic Specialist",
+        "degrees": "B.D.S. ︱ M.D.S.",
+        "licenseNo": "77220366-02",
+        "desc": "Dr. Abinaya has 9 years of experience in the field of orthodontics and dentofacial orthopedics and can handle all kinds of malocclusions in children and adults.",
+        "subsections": [
+            {
+                "title": "Services",
+                "items": [
+                    "Conventional fixed appliances",
+                    "Removable orthodontic appliances",
+                    "Clear aligners",
+                    "Myofunctional appliances",
+                    "Orthopedic appliances",
+                    "Interceptive orthodontics",
+                    "Self ligating brackets"
+                ]
+            }
+        ]
+    }
+]

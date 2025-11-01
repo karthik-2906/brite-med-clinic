@@ -1,0 +1,290 @@
+.intro,
+.services-container,
+.wcu,
+.our-doctors-container,
+.testimonials-container {
+    max-width: 1248px;
+    margin: 0 auto;
+    padding: 80px 24px;
+}
+
+.intro__title,
+.services__title,
+.wcu__title,
+.our-doctors__title,
+.testimonials__title {
+    font-family: 'Inter-Bold';
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 16px;
+}
+
+.intro__desc,
+.services__desc,
+.wcu__desc,
+.our-doctors__desc,
+.testimonials__desc {
+    font-size: 1.125rem;
+    line-height: 1.625;
+    text-align: center;
+    color: var(--text-dark-gray);
+    margin-bottom: 24px;
+}
+
+.intro__stats-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
+}
+
+
+.intro__stats-item {
+    text-align: center;
+}
+
+.intro__stats-number {
+    font-size: 4rem;
+    width: 3ch;
+    color: var(--text-black);
+}
+
+.intro__stats-label {
+    font-size: 1.125rem;
+    color: var(--text-dark-gray);
+}
+
+.services,
+/* .our-doctors, */
+.testimonials {
+    background-color: var(--color-bg-alternate);
+}
+
+.services__card-container,
+.wcu__card-container {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.wcu__card-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.services__card {
+    background-color: var(--text-white);
+    padding: 24px;
+    border: 2px solid var(--color-border);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.services__card-img-container,
+.wcu__card-img-container {
+    height: 56px;
+    width: 56px;
+    background-color: var(--color-secondary-light);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.services__card-img,
+.wcu__card-img {
+    height: 28px;
+    width: 28px;
+}
+
+.services__card-title {
+    font-family: 'Inter-SemiBold';
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.services__card-desc {
+    font-size: 0.875rem;
+    line-height: 1.625;
+    color: var(--text-dark-gray);
+}
+
+.wcu__card {
+    display: flex;
+    gap: 16px;
+}
+
+.wcu__card-title {
+    font-family: 'Inter-SemiBold';
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.wcu__card-desc {
+    color: var(--text-dark-gray);
+    line-height: 1.625;
+}
+
+.our-doctors__card-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    max-width: 792px;
+    margin: 48px auto 0;
+}
+
+.our-doctors__card {
+    flex: 1 1 384px;
+    display: flex;
+    flex-direction: column;
+}
+
+.our-doctors__card-img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.our-doctors__text-container {
+    padding: 24px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.our-doctors__card-title {
+    font-family: 'Inter-Bold';
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.our-doctors__card-subtitle {
+    font-family: 'Inter-SemiBold';
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: var(--text-black);
+    line-height: 1.625;
+    text-align: center;
+}
+
+.our-doctors__card-btn {
+    font-family: 'Inter-SemiBold';
+    font-size: 0.875rem;
+    color: var(--text-white);
+    background-color: var(--color-primary);
+    padding: 12px 16px;
+    border-radius: 8px;
+    width: fit-content;
+    margin: auto 0 0;
+}
+
+.our-doctors__card-btn:hover {
+    filter: brightness(0.9);
+}
+
+.testimonials__card-container {
+    margin: 48px 0 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.testimonials__card {
+    background-color: var(--text-white);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-between;
+    padding: 24px;
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials__card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials__card-rating {
+    font-size: 1.25rem;
+    font-size: 1.5rem;
+    color: var(--color-secondary);
+}
+
+.testimonials__card-desc {
+    color: var(--text-dark-gray);
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.testimonials__card-name {
+    font-family: 'Inter-SemiBold';
+    color: var(--color-primary);
+    border-top: 1px solid var(--color-border);
+    padding-top: 16px;
+    margin-top: auto;
+}
+
+@media (max-width: 992px) {
+
+    .intro,
+    .services-container,
+    .wcu,
+    .our-doctors-container {
+        padding: 48px 24px;
+    }
+
+    .intro__title,
+    .wcu__title,
+    .services__title,
+    .our-doctors__title,
+    .testimonials__title {
+        font-size: 2rem;
+    }
+
+    .services__card-container,
+    .wcu__card-container,
+    .testimonials__card-container {
+        margin-top: 36px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .our-doctors__card-container {
+        margin: 36px auto 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .intro__stats-container {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .intro__stats-number {
+        width: unset;
+    }
+
+    .services__card-container,
+    .wcu__card-container,
+    .testimonials__card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .our-doctors__card-img {
+        height: unset;
+    }
+}

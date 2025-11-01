@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Expert Specialists",
+        "desc": "Highly qualified general dentist and orthodontist with international credentials",
+        "icon": "assets/icons/wcu/award.svg",
+        "iconAlt": "Award Icon"
+    },
+    {
+        "title": "Advanced Technology",
+        "desc": "State-of-the-art equipment for precise diagnosis and treatment",
+        "icon": "assets/icons/wcu/shield.svg",
+        "iconAlt": "Shield Icon"
+    },
+    {
+        "title": "Patient-Centered Care",
+        "desc": "Compassionate approach focused on your comfort and satisfaction",
+        "icon": "assets/icons/wcu/heart.svg",
+        "iconAlt": "Heart Icon"
+    },
+    {
+        "title": "Flexible Scheduling",
+        "desc": "Convenient appointment times to fit your busy lifestyle",
+        "icon": "assets/icons/wcu/clock.svg",
+        "iconAlt": "Clock Icon"
+    },
+    {
+        "title": "Quality Results",
+        "desc": "Proven track record of successful treatments and happy patients",
+        "icon": "assets/icons/wcu/star.svg",
+        "iconAlt": "Star Icon"
+    },
+    {
+        "title": "Family Friendly",
+        "desc": "Comprehensive dental care for patients of all ages",
+        "icon": "assets/icons/wcu/family.svg",
+        "iconAlt": "Family Icon"
+    }
+]
