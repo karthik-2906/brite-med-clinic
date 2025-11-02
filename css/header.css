@@ -99,7 +99,7 @@ header.header-scrolled {
 .header__nav-link:hover {
     /* background-color: #E6F0FA; */
     color: var(--color-primary);
-    transition: 0.3s ease-in-out;
+    /* transition: 0.3s ease-in-out; */
 }
 
 .header__btn {

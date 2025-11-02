@@ -140,6 +140,10 @@
     justify-content: center;
 }
 
+.services__btn:hover {
+    filter: brightness(0.8);
+}
+
 /* .our-doctors, */
 .wcu,
 .testimonials {
@@ -252,7 +256,7 @@
 }
 
 .our-doctors__card-btn:hover {
-    filter: brightness(0.9);
+    filter: brightness(0.8);
 }
 
 .testimonials__card-container {
