@@ -94,9 +94,14 @@ ul {
     margin: 0 auto;
 }
 
-.banner-img {
+.banner-img,
+.banner-img-mobile {
     width: 100%;
     border-radius: 20px;
+}
+
+.banner-img-mobile {
+    display: none;
 }
 
 /* Contact us/Google maps Styles */
@@ -184,6 +189,15 @@ ul {
 }
 
 @media (max-width: 992px) {
+    .banner {
+        padding: 84px 0 0;
+    }
+
+    .banner-img,
+    .banner-img-mobile {
+        border-radius: unset;
+    }
+
     .mobile-wa-btn {
         display: flex;
     }
@@ -206,6 +220,14 @@ ul {
 }
 
 @media (max-width: 576px) {
+    .banner-img {
+        display: none;
+    }
+
+    .banner-img-mobile {
+        display: block;
+    }
+
     .gmaps__container {
         margin-top: 32px;
         grid-template-columns: repeat(1, 1fr);

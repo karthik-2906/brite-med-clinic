@@ -1,26 +1,62 @@
 [
     {
         "beforeImage": {
-            "src": "../assets/images/male-doctor.webp",
+            "src": "../assets/images/gallery/patient-1-before.jpg",
             "alt": "Before treatment photo of Patient 1"
         },
         "afterImage": {
-            "src": "../assets/images/female-doctor.webp",
+            "src": "../assets/images/gallery/patient-1-after.jpg",
             "alt": "After treatment photo of Patient 1"
         },
-        "patientName": "Patient 1",
-        "procedure": "Teeth Removal"
+        "procedureName": "Scaling and Polising",
+        "procedureType": "Teeth Cleaning"
     },
     {
         "beforeImage": {
-            "src": "../assets/images/male-doctor.webp",
-            "alt": "Before treatment photo of Patient 1"
+            "src": "../assets/images/gallery/patient-2-before.jpg",
+            "alt": "Before treatment photo of Patient 2"
         },
         "afterImage": {
-            "src": "../assets/images/female-doctor.webp",
-            "alt": "After treatment photo of Patient 1"
+            "src": "../assets/images/gallery/patient-2-after.jpg",
+            "alt": "After treatment photo of Patient 2"
         },
-        "patientName": "Patient 2",
-        "procedure": "Overbite fix"
+        "procedureName": "Zirconia Crown",
+        "procedureType": "Zirconia Crown"
+    },
+    {
+        "beforeImage": {
+            "src": "../assets/images/gallery/patient-3-before.jpg",
+            "alt": "Before treatment photo of Patient 3"
+        },
+        "afterImage": {
+            "src": "../assets/images/gallery/patient-3-after.jpg",
+            "alt": "After treatment photo of Patient 3"
+        },
+        "procedureName": "Orthodontic Treatment",
+        "procedureType": "Metal Braces"
+    },
+    {
+        "beforeImage": {
+            "src": "../assets/images/gallery/patient-4-before.jpg",
+            "alt": "Before treatment photo of Patient 4"
+        },
+        "afterImage": {
+            "src": "../assets/images/gallery/patient-4-after.jpg",
+            "alt": "After treatment photo of Patient 4"
+        },
+        "procedureName": "Teeth Whitening Scaling and Polishing",
+        "procedureType": "Bleaching"
+    },
+    {
+        "beforeImage": {
+            "src": "../assets/images/gallery/patient-5-before.jpg",
+            "alt": "Before treatment photo of Patient 5"
+        },
+        "afterImage": {
+            "src": "../assets/images/gallery/patient-5-after.jpg",
+            "alt": "After treatment photo of Patient 5"
+        },
+        "procedureName": "Hollywood Smile",
+        "procedureType": "6D Veneers"
     }
 ]

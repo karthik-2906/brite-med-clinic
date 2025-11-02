@@ -40,7 +40,7 @@
                         observer.disconnect();
                     }
                 });
-            }, { threshold: 0.9 });
+            }, { threshold: 0.4 });
 
             observer.observe(this.statsContainer);
         }

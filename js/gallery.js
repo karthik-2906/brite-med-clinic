@@ -24,8 +24,8 @@
                         </div>
                     </div>
                     <div class="gallery__card-text-container">
-                        <h2 class="gallery__card-text-title">${image.patientName}</h2>
-                        <p class="gallery__card-text-subtitle">${image.procedure}</p>
+                        <h2 class="gallery__card-text-title">${image.procedureName}</h2>
+                        <p class="gallery__card-text-subtitle">${image.procedureType}</p>
                     </div>`;
 
                 this.galleryCardContainer.appendChild(card);

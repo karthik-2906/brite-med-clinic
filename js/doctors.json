@@ -1,7 +1,7 @@
 [
     {
-        "img": "../assets/images/male-doctor.webp",
-        "imgAlt": "",
+        "img": "../assets/images/doctors/male-doctor.webp",
+        "imgAlt": " Image of Dr. Praveen Kumar",
         "name": "Dr. Praveen Kumar Subramaniam Thangaraj",
         "designation": "General Dentist ︱ Medical Director",
         "degrees": "B.D.S ︱ M.D.S. ︱ P.G.D.H.M.",
@@ -20,8 +20,8 @@
         ]
     },
     {
-        "img": "../assets/images/female-doctor.webp",
-        "imgAlt": "",
+        "img": "../assets/images/doctors/female-doctor.webp",
+        "imgAlt": "Image of Dr. Abinaya Alagarsamy",
         "name": "Dr. Abinaya Alagarsamy",
         "designation": "Orthodontic Specialist",
         "degrees": "B.D.S. ︱ M.D.S.",

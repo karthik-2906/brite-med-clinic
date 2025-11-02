@@ -24,7 +24,7 @@
 .gallery__card-container {
     margin-top: 48px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
 
@@ -41,6 +41,7 @@
     background: var(--color-primary-light-bg);
     padding: 24px;
     display: flex;
+    flex-direction: column;
     gap: 24px;
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
@@ -69,9 +70,9 @@
 .gallery__card-before-img,
 .gallery__card-after-img {
     object-fit: cover;
-    max-width: 258px;
     width: 100%;
     height: 100%;
+    aspect-ratio: 16/9;
     border-radius: 16px;
 }
 
@@ -106,6 +107,7 @@
 
     .gallery__card-container {
         margin-top: 36px;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .gallery__card-img-container {
