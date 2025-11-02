@@ -6,7 +6,7 @@
 
 .gallery__title {
     font-family: 'Inter-Bold';
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     font-weight: 400;
     text-align: center;
     color: var(--color-primary);
@@ -17,7 +17,7 @@
     font-size: 1.125rem;
     line-height: 1.625;
     text-align: center;
-    color: var(--text-dark-gray);
+    color: var(--text-light-gray);
     margin-bottom: 24px;
 }
 

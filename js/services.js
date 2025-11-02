@@ -5,7 +5,7 @@
         }
 
         async populateServiceCards() {
-            const response = await fetch('../js/services.json');
+            const response = await fetch('../assets/data/services.json');
             const servicesData = await response.json();
 
             servicesData.forEach(service => {

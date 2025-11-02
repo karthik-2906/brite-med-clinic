@@ -3,7 +3,6 @@
         constructor() {
             this.statsContainer = document.querySelector('.intro__stats-container');
             this.counters = document.querySelectorAll('.intro__stats-number span');
-            this.servicesCardContainer = document.querySelector('.services__card-container');
             this.wcuCardContainer = document.querySelector('.wcu__card-container');
             this.doctorsCardContainer = document.querySelector('.our-doctors__card-container');
             this.testimonialsCardContainer = document.querySelector('.testimonials__card-container');
@@ -45,25 +44,8 @@
             observer.observe(this.statsContainer);
         }
 
-        async populateServiceCards() {
-            const response = await fetch('js/services.json');
-            const servicesData = await response.json();
-
-            servicesData.forEach(service => {
-                const card = document.createElement('div');
-                card.className = 'services__card';
-                card.innerHTML = `
-                    <div class="services__card-img-container">
-                        <img src="${service.icon}" alt="${service.iconAlt}" width="28px" height="28px" class="services__card-img">
-                    </div>
-                    <h2 class="services__card-title">${service.title}</h2>
-                    <p class="services__card-desc">${service.desc}</p>`;
-                this.servicesCardContainer.appendChild(card);
-            })
-        }
-
         async populateWcuCards() {
-            const response = await fetch('js/wcu.json');
+            const response = await fetch('../assets/data/wcu.json');
             const wcuData = await response.json();
 
             wcuData.forEach(wcu => {
@@ -82,7 +64,7 @@
         }
 
         async populateDoctorsCards() {
-            const response = await fetch('js/doctors.json');
+            const response = await fetch('../assets/data/doctors.json');
             const doctorsData = await response.json();
 
             doctorsData.forEach(doctor => {
@@ -103,7 +85,7 @@
         }
 
         async populateTestimonialsCards() {
-            const response = await fetch('js/testimonials.json');
+            const response = await fetch('../assets/data/testimonials.json');
             const testimonialsData = await response.json();
 
             testimonialsData.forEach(testimonial => {
@@ -122,7 +104,6 @@
 
         init() {
             this.observeCounters();
-            this.populateServiceCards();
             this.populateWcuCards();
             this.populateDoctorsCards();
             this.populateTestimonialsCards();

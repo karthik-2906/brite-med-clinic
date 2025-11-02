@@ -10,7 +10,7 @@
 
         populateCurrentYear() {
             const currentYear = new Date().getFullYear();
-            this.copyrightText.textContent = `© ${currentYear} BRITE MED CLINIC. All Rights Reserved.`;
+            this.copyrightText.textContent = `© ${currentYear} BriteMed Clinic. All Rights Reserved.`;
         }
 
         bindingEvents() {

@@ -5,7 +5,7 @@
         }
 
         async populateGalleryCards() {
-            const response = await fetch('../js/gallery.json');
+            const response = await fetch('../assets/data/gallery.json');
             const galleryData = await response.json();
 
             galleryData.forEach(image => {

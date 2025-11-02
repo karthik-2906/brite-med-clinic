@@ -5,7 +5,7 @@
         }
 
         async populateDoctorCards() {
-            const response = await fetch('../js/doctors.json');
+            const response = await fetch('../assets/data/doctors.json');
             const doctorsData = await response.json();
 
             doctorsData.forEach(doctor => {
@@ -19,7 +19,7 @@
                         <ul>
                         ${subsection.items.map(item => `
                             <li class="doctors__card-list-item">
-                                <img src="../assets/icons/wcu/badge-green-icon.svg" height="28" width="28">
+                                <img src="../assets/icons/wcu/check-circle-icon.svg" height="24" width="24">
                                 ${item}
                             </li>
                             `).join('')}
