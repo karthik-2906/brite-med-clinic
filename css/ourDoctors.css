@@ -38,7 +38,6 @@
 
 .doctors__card-subtitle {
     font-family: 'Inter-SemiBold';
-    font-weight: 400;
     font-size: 1.125rem;
     color: var(--text-black);
     line-height: 1.625;
@@ -47,6 +46,7 @@
 .doctors__card-desc {
     font-size: 1.125rem;
     line-height: 1.625;
+    color: var(--text-dark-gray);
 }
 
 .doctors__card-subsection {
