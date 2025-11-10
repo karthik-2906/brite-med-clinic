@@ -61,6 +61,7 @@
 }
 
 .doctors__card-list-item {
+    color: var(--text-dark-gray);
     display: flex;
     align-items: center;
     gap: 12px;
