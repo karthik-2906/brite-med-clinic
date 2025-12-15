@@ -72,7 +72,7 @@
                 card.className = 'our-doctors__card';
 
                 card.innerHTML = `
-                    <img src="${doctor.img}" alt="${doctor.imgAlt}" class="our-doctors__card-img">
+                    <img src="${doctor.imgHome}" alt="${doctor.imgAlt}" class="our-doctors__card-img">
                     <div class="our-doctors__text-container">
                         <h2 class="our-doctors__card-title">${doctor.name}</h2>
                         <p class="our-doctors__card-subtitle">${doctor.designation}</p>

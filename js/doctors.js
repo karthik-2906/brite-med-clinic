@@ -19,7 +19,7 @@
                         <ul>
                         ${subsection.items.map(item => `
                             <li class="doctors__card-list-item">
-                                <img src="../assets/icons/wcu/check-circle-icon.svg" height="24" width="24">
+                                <img src="../assets/icons/wcu/check-circle-icon.svg" height="20" width="20">
                                 ${item}
                             </li>
                             `).join('')}
@@ -28,7 +28,7 @@
                     `).join('');
 
                 card.innerHTML = `
-                    <img src="${doctor.img}" alt="${doctor.imgAlt}" class="doctors__card-img">
+                    <img src="${doctor.imgDoctors}" alt="${doctor.imgAlt}" class="doctors__card-img">
                     <div class="doctors__card-text-container">
                         <h2 class="doctors__card-title">${doctor.name}</h2>
                         <p class="doctors__card-subtitle text-green">${doctor.designation}</p>

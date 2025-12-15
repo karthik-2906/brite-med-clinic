@@ -44,7 +44,6 @@
 }
 
 .doctors__card-desc {
-    font-size: 1.125rem;
     line-height: 1.625;
     color: var(--text-dark-gray);
 }
@@ -65,7 +64,6 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    font-size: 1.125rem;
 }
 
 @media (max-width: 992px) {
