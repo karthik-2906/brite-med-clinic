@@ -9,7 +9,7 @@
 
 .doctors__card {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 2fr;
     gap: 24px;
     scroll-behavior: smooth;
     scroll-margin-top: 130px;
