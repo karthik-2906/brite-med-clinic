@@ -8,43 +8,43 @@
     {
         "title": "Invisalign",
         "desc": "Clear aligners for discreet orthodontic treatment",
-        "icon": "../assets/icons/services/braces-icon.svg",
-        "iconAlt": "Braces Icon"
+        "icon": "../assets/icons/services/teeth-icon.svg",
+        "iconAlt": "Invisalign Icon"
     },
     {
         "title": "Dental Implants",
         "desc": "Permanent solution for missing teeth with natural results",
         "icon": "../assets/icons/services/implants-icon.svg",
-        "iconAlt": "Braces Icon"
+        "iconAlt": "Dental Implants Icon"
     },
     {
         "title": "Cosmetic Dentistry",
         "desc": "Veneers, whitening, and smile makeover treatments",
-        "icon": "../assets/icons/services/braces-icon.svg",
-        "iconAlt": "Braces Icon"
+        "icon": "../assets/icons/services/cosmetic-dentistry-icon.svg",
+        "iconAlt": "Cosmetic Dentistry Icon"
     },
     {
         "title": "Preventive Care",
         "desc": "Regular checkups, cleanings, and oral health maintenance",
-        "icon": "../assets/icons/services/braces-icon.svg",
-        "iconAlt": "Braces Icon"
+        "icon": "../assets/icons/services/preventive-care-icon.svg",
+        "iconAlt": "Preventive Care Icon"
     },
     {
         "title": "Root Canal Treatment",
         "desc": "Pain-free endodontic procedures to save your teeth",
-        "icon": "../assets/icons/services/braces-icon.svg",
-        "iconAlt": "Braces Icon"
+        "icon": "../assets/icons/services/root-canal-icon.svg",
+        "iconAlt": "Root Canal Icon"
     },
     {
         "title": "Dental Examinations",
         "desc": "Comprehensive oral health assessments and diagnostics",
-        "icon": "../assets/icons/services/braces-icon.svg",
-        "iconAlt": "Braces Icon"
+        "icon": "../assets/icons/services/dental-exam-icon.svg",
+        "iconAlt": "Dental Exam Icon"
     },
     {
         "title": "Pediatric Dentistry",
         "desc": "Gentle dental care for children and adolescents",
-        "icon": "../assets/icons/services/braces-icon.svg",
-        "iconAlt": "Braces Icon"
+        "icon": "../assets/icons/services/family-icon.svg",
+        "iconAlt": "Family Icon"
     }
 ]

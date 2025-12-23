@@ -1,62 +1,366 @@
-[
-    {
-        "beforeImage": {
-            "src": "../assets/images/gallery/patient-1-before.jpg",
-            "alt": "Before treatment photo of Patient 1"
+{
+    "beforeAfter": [
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-1-before.jpg",
+                "alt": "Before treatment photo of Patient 1"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-1-after.jpg",
+                "alt": "After treatment photo of Patient 1"
+            },
+            "procedureName": "Scaling and Polising",
+            "procedureType": "Teeth Cleaning"
         },
-        "afterImage": {
-            "src": "../assets/images/gallery/patient-1-after.jpg",
-            "alt": "After treatment photo of Patient 1"
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-2-before.jpg",
+                "alt": "Before treatment photo of Patient 2"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-2-after.jpg",
+                "alt": "After treatment photo of Patient 2"
+            },
+            "procedureName": "Zirconia Crown",
+            "procedureType": ""
         },
-        "procedureName": "Scaling and Polising",
-        "procedureType": "Teeth Cleaning"
-    },
-    {
-        "beforeImage": {
-            "src": "../assets/images/gallery/patient-2-before.jpg",
-            "alt": "Before treatment photo of Patient 2"
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-3-before.jpg",
+                "alt": "Before treatment photo of Patient 3"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-3-after.jpg",
+                "alt": "After treatment photo of Patient 3"
+            },
+            "procedureName": "Orthodontic Treatment",
+            "procedureType": "Metal Braces"
         },
-        "afterImage": {
-            "src": "../assets/images/gallery/patient-2-after.jpg",
-            "alt": "After treatment photo of Patient 2"
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-4-before.jpg",
+                "alt": "Before treatment photo of Patient 4"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-4-after.jpg",
+                "alt": "After treatment photo of Patient 4"
+            },
+            "procedureName": "Teeth Whitening Scaling and Polishing",
+            "procedureType": "Bleaching"
         },
-        "procedureName": "Zirconia Crown",
-        "procedureType": "Zirconia Crown"
-    },
-    {
-        "beforeImage": {
-            "src": "../assets/images/gallery/patient-3-before.jpg",
-            "alt": "Before treatment photo of Patient 3"
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-5-before.jpg",
+                "alt": "Before treatment photo of Patient 5"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-5-after.jpg",
+                "alt": "After treatment photo of Patient 5"
+            },
+            "procedureName": "Hollywood Smile",
+            "procedureType": "6D Veneers"
         },
-        "afterImage": {
-            "src": "../assets/images/gallery/patient-3-after.jpg",
-            "alt": "After treatment photo of Patient 3"
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-6-before.jpeg",
+                "alt": "Before treatment photo of Patient 6"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-6-after.jpeg",
+                "alt": "After treatment photo of Patient 6"
+            },
+            "procedureName": "Hollywood Smile",
+            "procedureType": "Veneers"
         },
-        "procedureName": "Orthodontic Treatment",
-        "procedureType": "Metal Braces"
-    },
-    {
-        "beforeImage": {
-            "src": "../assets/images/gallery/patient-4-before.jpg",
-            "alt": "Before treatment photo of Patient 4"
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-7-before.jpeg",
+                "alt": "Before treatment photo of Patient 7"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-7-after.jpeg",
+                "alt": "After treatment photo of Patient 7"
+            },
+            "procedureName": "Veneers",
+            "procedureType": ""
         },
-        "afterImage": {
-            "src": "../assets/images/gallery/patient-4-after.jpg",
-            "alt": "After treatment photo of Patient 4"
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-8-before.jpeg",
+                "alt": "Before treatment photo of Patient 8"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-8-after.jpeg",
+                "alt": "After treatment photo of Patient 8"
+            },
+            "procedureName": "",
+            "procedureType": ""
         },
-        "procedureName": "Teeth Whitening Scaling and Polishing",
-        "procedureType": "Bleaching"
-    },
-    {
-        "beforeImage": {
-            "src": "../assets/images/gallery/patient-5-before.jpg",
-            "alt": "Before treatment photo of Patient 5"
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-9-before.jpeg",
+                "alt": "Before treatment photo of Patient 9"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-9-after.jpeg",
+                "alt": "After treatment photo of Patient 9"
+            },
+            "procedureName": "",
+            "procedureType": ""
         },
-        "afterImage": {
-            "src": "../assets/images/gallery/patient-5-after.jpg",
-            "alt": "After treatment photo of Patient 5"
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-10-before.jpeg",
+                "alt": "Before treatment photo of Patient 10"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-10-after.jpeg",
+                "alt": "After treatment photo of Patient 10"
+            },
+            "procedureName": "Veneers",
+            "procedureType": ""
         },
-        "procedureName": "Hollywood Smile",
-        "procedureType": "6D Veneers"
-    }
-]
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-11-before.jpeg",
+                "alt": "Before treatment photo of Patient 11"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-11-after.jpeg",
+                "alt": "After treatment photo of Patient 11"
+            },
+            "procedureName": "Veneers",
+            "procedureType": ""
+        },
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-12-before.jpeg",
+                "alt": "Before treatment photo of Patient 12"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-12-after.jpeg",
+                "alt": "After treatment photo of Patient 12"
+            },
+            "procedureName": "",
+            "procedureType": ""
+        },
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-13-before.jpeg",
+                "alt": "Before treatment photo of Patient 13"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-13-after.jpeg",
+                "alt": "After treatment photo of Patient 13"
+            },
+            "procedureName": "Orthodontic Treatment",
+            "procedureType": "Metal Braces"
+        },
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-14-before.jpeg",
+                "alt": "Before treatment photo of Patient 14"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-14-after.jpeg",
+                "alt": "After treatment photo of Patient 14"
+            },
+            "procedureName": "",
+            "procedureType": ""
+        },
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-15-before.jpeg",
+                "alt": "Before treatment photo of Patient 15"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-15-after.jpeg",
+                "alt": "After treatment photo of Patient 15"
+            },
+            "procedureName": "",
+            "procedureType": ""
+        },
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-16-before.jpeg",
+                "alt": "Before treatment photo of Patient 16"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-16-after.jpeg",
+                "alt": "After treatment photo of Patient 16"
+            },
+            "procedureName": "Zirconia Crown",
+            "procedureType": ""
+        },
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-17-before.jpeg",
+                "alt": "Before treatment photo of Patient 17"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-17-after.jpeg",
+                "alt": "After treatment photo of Patient 17"
+            },
+            "procedureName": "",
+            "procedureType": ""
+        },
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-18-before.jpeg",
+                "alt": "Before treatment photo of Patient 18"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-18-after.jpeg",
+                "alt": "After treatment photo of Patient 18"
+            },
+            "procedureName": "",
+            "procedureType": ""
+        },
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-19-before.jpeg",
+                "alt": "Before treatment photo of Patient 19"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-19-after.jpeg",
+                "alt": "After treatment photo of Patient 19"
+            },
+            "procedureName": "",
+            "procedureType": ""
+        },
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-20-before.jpeg",
+                "alt": "Before treatment photo of Patient 20"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-20-after.jpeg",
+                "alt": "After treatment photo of Patient 20"
+            },
+            "procedureName": "",
+            "procedureType": ""
+        },
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-21-before.jpeg",
+                "alt": "Before treatment photo of Patient 21"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-21-after.jpeg",
+                "alt": "After treatment photo of Patient 21"
+            },
+            "procedureName": "Mid Line Diastema",
+            "procedureType": "Zirconia Crown"
+        },
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-22-before.jpeg",
+                "alt": "Before treatment photo of Patient 22"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-22-after.jpeg",
+                "alt": "After treatment photo of Patient 22"
+            },
+            "procedureName": "",
+            "procedureType": ""
+        },
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-23-before.jpeg",
+                "alt": "Before treatment photo of Patient 23"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-23-after.jpeg",
+                "alt": "After treatment photo of Patient 23"
+            },
+            "procedureName": "",
+            "procedureType": ""
+        },
+        {
+            "beforeImage": {
+                "src": "../assets/images/gallery/patient-24-before.jpeg",
+                "alt": "Before treatment photo of Patient 24"
+            },
+            "afterImage": {
+                "src": "../assets/images/gallery/patient-24-after.jpeg",
+                "alt": "After treatment photo of Patient 24"
+            },
+            "procedureName": "",
+            "procedureType": ""
+        }
+    ],
+    "collage": [
+        {
+            "imgSrc": "../assets/images/gallery/collage-patient-1.jpeg",
+            "imgAlt": "Collage of before and after pic of patient 1",
+            "procedureName": "Orthodontic Treatment",
+            "procedureType": "Metal Braces"
+        },
+        {
+            "imgSrc": "../assets/images/gallery/collage-patient-2.jpeg",
+            "imgAlt": "Collage of before and after pic of patient 2",
+            "procedureName": "Orthodontic Treatment",
+            "procedureType": "Metal Braces"
+        },
+        {
+            "imgSrc": "../assets/images/gallery/collage-patient-3.jpeg",
+            "imgAlt": "Collage of before and after pic of patient 3",
+            "procedureName": "Veneers",
+            "procedureType": ""
+        },
+        {
+            "imgSrc": "../assets/images/gallery/collage-patient-4.jpeg",
+            "imgAlt": "Collage of before and after pic of patient 4",
+            "procedureName": "Veneers",
+            "procedureType": ""
+        },
+        {
+            "imgSrc": "../assets/images/gallery/collage-patient-5.jpeg",
+            "imgAlt": "Collage of before and after pic of patient 5",
+            "procedureName": "Orthodontic Treatment",
+            "procedureType": "Metal Braces"
+        },
+        {
+            "imgSrc": "../assets/images/gallery/collage-patient-6.jpeg",
+            "imgAlt": "Collage of before and after pic of patient 6",
+            "procedureName": "Orthodontic Treatment",
+            "procedureType": "Metal Braces"
+        },
+        {
+            "imgSrc": "../assets/images/gallery/collage-patient-7.jpeg",
+            "imgAlt": "Collage of before and after pic of patient 7",
+            "procedureName": "",
+            "procedureType": ""
+        },
+        {
+            "imgSrc": "../assets/images/gallery/collage-patient-8.jpeg",
+            "imgAlt": "Collage of before and after pic of patient 8",
+            "procedureName": "Guided Eruption of Impacted Canine",
+            "procedureType": ""
+        },
+        {
+            "imgSrc": "../assets/images/gallery/collage-patient-9.jpeg",
+            "imgAlt": "Collage of before and after pic of patient 9",
+            "procedureName": "Guided Eruption of Impacted Canine",
+            "procedureType": ""
+        },
+        {
+            "imgSrc": "../assets/images/gallery/collage-patient-10.jpeg",
+            "imgAlt": "Collage of before and after pic of patient 10",
+            "procedureName": "",
+            "procedureType": ""
+        },
+        {
+            "imgSrc": "../assets/images/gallery/collage-patient-11.jpeg",
+            "imgAlt": "Collage of before and after pic of patient 11",
+            "procedureName": "RE RCT with Bio Ceramic Sealer",
+            "procedureType": ""
+        },
+        {
+            "imgSrc": "../assets/images/gallery/collage-patient-12.jpeg",
+            "imgAlt": "Collage of before and after pic of patient 12",
+            "procedureName": "",
+            "procedureType": ""
+        }
+    ]
+}

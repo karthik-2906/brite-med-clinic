@@ -2,13 +2,14 @@
     class Gallery {
         constructor() {
             this.galleryCardContainer = document.querySelector('.gallery__card-container');
+            this.collageContainer = document.querySelector('.gallery__collage-container');
         }
 
         async populateGalleryCards() {
             const response = await fetch('../assets/data/gallery.json');
             const galleryData = await response.json();
 
-            galleryData.forEach(image => {
+            galleryData.beforeAfter.forEach(image => {
                 const card = document.createElement('div');
                 card.className = 'gallery__card';
 
@@ -29,6 +30,22 @@
                     </div>`;
 
                 this.galleryCardContainer.appendChild(card);
+            })
+
+            galleryData.collage.forEach(image => {
+                const card = document.createElement('div');
+                card.className = 'gallery__card';
+
+                card.innerHTML = `
+                    <div class="gallery__card-img-container">
+                        <img src="${image.imgSrc}" alt="${image.imgAlt}" class="gallery__collage-img" />
+                    </div>
+                    <div class="gallery__card-text-container">
+                        <h2 class="gallery__card-text-title">${image.procedureName}</h2>
+                        <p class="gallery__card-text-subtitle">${image.procedureType}</p>
+                    </div>`;
+
+                this.collageContainer.appendChild(card);
             })
         }
 
