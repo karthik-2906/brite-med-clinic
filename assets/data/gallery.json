@@ -93,7 +93,7 @@
                 "src": "../assets/images/gallery/patient-8-after.jpeg",
                 "alt": "After treatment photo of Patient 8"
             },
-            "procedureName": "",
+            "procedureName": "Fixed Partial Dentures",
             "procedureType": ""
         },
         {
@@ -105,8 +105,8 @@
                 "src": "../assets/images/gallery/patient-9-after.jpeg",
                 "alt": "After treatment photo of Patient 9"
             },
-            "procedureName": "",
-            "procedureType": ""
+            "procedureName": "Scaling and Polising",
+            "procedureType": "Teeth Cleaning"
         },
         {
             "beforeImage": {
@@ -117,8 +117,8 @@
                 "src": "../assets/images/gallery/patient-10-after.jpeg",
                 "alt": "After treatment photo of Patient 10"
             },
-            "procedureName": "Veneers",
-            "procedureType": ""
+            "procedureName": "Full Mouth Rehabilitation",
+            "procedureType": "Hollywood Smile"
         },
         {
             "beforeImage": {
@@ -129,7 +129,7 @@
                 "src": "../assets/images/gallery/patient-11-after.jpeg",
                 "alt": "After treatment photo of Patient 11"
             },
-            "procedureName": "Veneers",
+            "procedureName": "Hollywood Smile",
             "procedureType": ""
         },
         {
@@ -305,13 +305,13 @@
         {
             "imgSrc": "../assets/images/gallery/collage-patient-3.jpeg",
             "imgAlt": "Collage of before and after pic of patient 3",
-            "procedureName": "Veneers",
-            "procedureType": ""
+            "procedureName": "Full Mouth Rehabilitation",
+            "procedureType": "Hollywood Smile"
         },
         {
             "imgSrc": "../assets/images/gallery/collage-patient-4.jpeg",
             "imgAlt": "Collage of before and after pic of patient 4",
-            "procedureName": "Veneers",
+            "procedureName": "Full Mouth Rehabilitation",
             "procedureType": ""
         },
         {
@@ -341,13 +341,13 @@
         {
             "imgSrc": "../assets/images/gallery/collage-patient-9.jpeg",
             "imgAlt": "Collage of before and after pic of patient 9",
-            "procedureName": "Guided Eruption of Impacted Canine",
+            "procedureName": "",
             "procedureType": ""
         },
         {
             "imgSrc": "../assets/images/gallery/collage-patient-10.jpeg",
             "imgAlt": "Collage of before and after pic of patient 10",
-            "procedureName": "",
+            "procedureName": "Guided Eruption of Impacted Canine",
             "procedureType": ""
         },
         {
