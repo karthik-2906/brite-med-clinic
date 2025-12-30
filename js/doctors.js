@@ -1,7 +1,7 @@
 (function () {
     class Doctors {
         constructor() {
-            this.doctorsCardContainer = document.querySelector('.doctors');
+            this.doctorsCardContainer = document.querySelector('.doctors-container');
         }
 
         async populateDoctorCards() {

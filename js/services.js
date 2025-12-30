@@ -13,9 +13,9 @@
                 card.className = 'services__card';
                 card.innerHTML = `
                     <div class="services__card-img-container">
-                        <img src="${service.icon}" alt="${service.iconAlt}" width="28px" height="28px" class="services__card-img">
+                        <img src="${service.icon}" alt="" width="28px" height="28px" class="services__card-img">
                     </div>
-                    <h2 class="services__card-title">${service.title}</h2>
+                    <h3 class="services__card-title">${service.title}</h3>
                     <p class="services__card-desc">${service.desc}</p>`;
                 this.servicesCardContainer.appendChild(card);
             })

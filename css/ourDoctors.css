@@ -2,6 +2,25 @@
     max-width: 1248px;
     margin: 0 auto;
     padding: 80px 24px;
+}
+
+.doctors__title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 24px;
+}
+
+.doctors__desc {
+    font-size: 1.125rem;
+    line-height: 1.625;
+    text-align: center;
+    color: var(--text-light-gray);
+    margin-bottom: 40px;
+}
+
+.doctors-container {
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -12,7 +31,7 @@
     grid-template-columns: 1fr 2fr;
     gap: 24px;
     scroll-behavior: smooth;
-    scroll-margin-top: 130px;
+    scroll-margin-top: 120px;
 }
 
 .doctors__card-img {
@@ -30,14 +49,13 @@
 }
 
 .doctors__card-title {
-    font-family: 'Inter-Bold';
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1.5rem;
     color: var(--color-primary);
 }
 
 .doctors__card-subtitle {
-    font-family: 'Inter-SemiBold';
+    font-weight: 600;
     font-size: 1.125rem;
     color: var(--text-black);
     line-height: 1.625;
@@ -69,6 +87,13 @@
 @media (max-width: 992px) {
     .doctors {
         padding: 48px 24px;
+    }
+
+    .doctors__title {
+        font-size: 2rem;
+    }
+
+    .doctors-container {
         gap: 48px;
     }
 }

@@ -56,7 +56,7 @@
                     <img src="${wcu.icon}" alt="${wcu.iconAlt}" width="28px" height="28px" class="wcu__card-img">
                 </div>
                 <div class="wcu__card-text-container">
-                    <h2 class="wcu__card-title">${wcu.title}</h2>
+                    <h3 class="wcu__card-title">${wcu.title}</h3>
                     <p class="wcu__card-desc">${wcu.desc}</p>
                 </div>`;
                 this.wcuCardContainer.appendChild(card);

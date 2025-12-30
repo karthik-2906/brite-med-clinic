@@ -2,49 +2,41 @@
     {
         "title": "Orthodontic Braces",
         "desc": "Traditional and modern braces for perfect teeth alignment",
-        "icon": "../assets/icons/services/braces-icon.svg",
-        "iconAlt": "Braces Icon"
+        "icon": "../assets/icons/services/braces-icon.svg"
     },
     {
         "title": "Invisalign",
         "desc": "Clear aligners for discreet orthodontic treatment",
-        "icon": "../assets/icons/services/teeth-icon.svg",
-        "iconAlt": "Invisalign Icon"
+        "icon": "../assets/icons/services/teeth-icon.svg"
     },
     {
         "title": "Dental Implants",
         "desc": "Permanent solution for missing teeth with natural results",
-        "icon": "../assets/icons/services/implants-icon.svg",
-        "iconAlt": "Dental Implants Icon"
+        "icon": "../assets/icons/services/implants-icon.svg"
     },
     {
         "title": "Cosmetic Dentistry",
         "desc": "Veneers, whitening, and smile makeover treatments",
-        "icon": "../assets/icons/services/cosmetic-dentistry-icon.svg",
-        "iconAlt": "Cosmetic Dentistry Icon"
+        "icon": "../assets/icons/services/cosmetic-dentistry-icon.svg"
     },
     {
         "title": "Preventive Care",
         "desc": "Regular checkups, cleanings, and oral health maintenance",
-        "icon": "../assets/icons/services/preventive-care-icon.svg",
-        "iconAlt": "Preventive Care Icon"
+        "icon": "../assets/icons/services/preventive-care-icon.svg"
     },
     {
         "title": "Root Canal Treatment",
         "desc": "Pain-free endodontic procedures to save your teeth",
-        "icon": "../assets/icons/services/root-canal-icon.svg",
-        "iconAlt": "Root Canal Icon"
+        "icon": "../assets/icons/services/root-canal-icon.svg"
     },
     {
         "title": "Dental Examinations",
         "desc": "Comprehensive oral health assessments and diagnostics",
-        "icon": "../assets/icons/services/dental-exam-icon.svg",
-        "iconAlt": "Dental Exam Icon"
+        "icon": "../assets/icons/services/dental-exam-icon.svg"
     },
     {
         "title": "Pediatric Dentistry",
         "desc": "Gentle dental care for children and adolescents",
-        "icon": "../assets/icons/services/family-icon.svg",
-        "iconAlt": "Family Icon"
+        "icon": "../assets/icons/services/family-icon.svg"
     }
 ]

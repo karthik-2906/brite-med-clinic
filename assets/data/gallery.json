@@ -329,8 +329,8 @@
         {
             "imgSrc": "../assets/images/gallery/collage-patient-7.jpeg",
             "imgAlt": "Collage of before and after pic of patient 7",
-            "procedureName": "",
-            "procedureType": ""
+            "procedureName": "E Max Crowns",
+            "procedureType": "Cosmetic Dentistry"
         },
         {
             "imgSrc": "../assets/images/gallery/collage-patient-8.jpeg",
@@ -341,7 +341,7 @@
         {
             "imgSrc": "../assets/images/gallery/collage-patient-9.jpeg",
             "imgAlt": "Collage of before and after pic of patient 9",
-            "procedureName": "",
+            "procedureName": "Root Canal Treatment with Post and Core Building and Zirconia Crown",
             "procedureType": ""
         },
         {
@@ -359,7 +359,7 @@
         {
             "imgSrc": "../assets/images/gallery/collage-patient-12.jpeg",
             "imgAlt": "Collage of before and after pic of patient 12",
-            "procedureName": "",
+            "procedureName": "Full Mouth Rehabilitation",
             "procedureType": ""
         }
     ]

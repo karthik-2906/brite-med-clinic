@@ -1,3 +1,9 @@
+.banner-img.gallery-banner {
+    object-fit: contain;
+    aspect-ratio: 16/7;
+    background: #dee3e6;
+}
+
 .gallery {
     max-width: 1248px;
     margin: 0 auto;
@@ -9,12 +15,11 @@
 }
 
 .gallery__title {
-    font-family: 'Inter-Bold';
     font-size: 2.25rem;
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
     color: var(--color-primary);
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .gallery__desc {
@@ -57,8 +62,7 @@
 
 .gallery__card-before-title,
 .gallery__card-after-title {
-    font-family: 'Inter-SemiBold';
-    font-weight: 400;
+    font-weight: 600;
     font-size: 0.75rem;
     color: var(--color-primary);
 }
@@ -83,8 +87,7 @@
 
 .gallery__card-text-title,
 .gallery__card-text-subtitle {
-    font-family: 'Inter-SemiBold';
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     color: var(--color-secondary);
 }

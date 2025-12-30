@@ -2,7 +2,7 @@
     {
         "imgHome": "../assets/images/doctors/dr-praveen-w-scrubs.jpg",
         "imgDoctors": "../assets/images/doctors/dr-praveen.jpg",
-        "imgAlt": " Image of Dr. Praveen Kumar",
+        "imgAlt": "Dr. Praveen Kumar, Orthodontist at BriteMed Clinic",
         "name": "Dr. Praveen Kumar Subramaniam Thangaraj",
         "designation": "General Dentist ︱ Medical Director",
         "degrees": "B.D.S ︱ M.D.S. ︱ P.G.D.H.M.",
@@ -23,7 +23,7 @@
     {
         "imgHome": "../assets/images/doctors/dr-abinaya.jpeg",
         "imgDoctors": "../assets/images/doctors/dr-abinaya.jpeg",
-        "imgAlt": "Image of Dr. Abinaya Alagarsamy",
+        "imgAlt": "Dr. Abinaya Alagarsamy, Orthodontist at BriteMed Clinic",
         "name": "Dr. Abinaya Alagarsamy",
         "designation": "Orthodontic Specialist",
         "degrees": "B.D.S. ︱ M.D.S.",

@@ -88,22 +88,12 @@ header.header-scrolled {
     gap: 32px;
 }
 
-/* .header__nav-link {
-    text-transform: uppercase;
-    font-size: 0.875rem;
-    padding: 12px;
-    border-radius: 8px;
-    font-weight: 700;
-} */
-
 .header__nav-link:hover {
-    /* background-color: #E6F0FA; */
     color: var(--color-primary);
-    /* transition: 0.3s ease-in-out; */
 }
 
 .header__btn {
-    font-family: 'Inter-SemiBold';
+    font-weight: 600;
     font-size: 0.875rem;
     color: var(--text-white);
     background-color: var(--color-secondary);

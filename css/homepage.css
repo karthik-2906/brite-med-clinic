@@ -13,12 +13,11 @@
 .wcu__title,
 .our-doctors__title,
 .testimonials__title {
-    font-family: 'Inter-Bold';
+    font-weight: 700;
     font-size: 2.25rem;
-    font-weight: 400;
     text-align: center;
     color: var(--color-primary);
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .intro__desc,
@@ -45,8 +44,8 @@
 }
 
 .intro__stats-number {
+    font-weight: 600;
     font-size: 4rem;
-    width: 3ch;
     color: var(--text-black);
 }
 
@@ -72,7 +71,7 @@
 }
 
 .services__intro-text {
-    font-family: 'Inter-SemiBold';
+    font-weight: 600;
     font-size: 0.875rem;
     color: var(--color-secondary);
     margin-bottom: 8px;
@@ -88,8 +87,7 @@
 }
 
 .services__subtitle {
-    font-family: 'Inter-SemiBold';
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     color: var(--color-primary);
     margin-bottom: 12px;
@@ -119,7 +117,7 @@
 }
 
 .services__price-title {
-    font-family: 'Inter-SemiBold';
+    font-weight: 700;
     font-size: 1.25rem;
     color: var(--color-primary);
 }
@@ -130,7 +128,7 @@
 }
 
 .services__btn {
-    font-family: 'Inter-SemiBold';
+    font-weight: 600;
     color: var(--text-white);
     background-color: var(--color-primary);
     padding: 12px;
@@ -184,9 +182,8 @@
 }
 
 .wcu__card-title {
-    font-family: 'Inter-SemiBold';
     font-size: 1.125rem;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5;
     margin-bottom: 8px;
 }
@@ -228,16 +225,14 @@
 }
 
 .our-doctors__card-title {
-    font-family: 'Inter-Bold';
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1.25rem;
     color: var(--color-primary);
     text-align: center;
 }
 
 .our-doctors__card-subtitle {
-    font-family: 'Inter-SemiBold';
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     color: var(--text-black);
     line-height: 1.625;
@@ -245,7 +240,7 @@
 }
 
 .our-doctors__card-btn {
-    font-family: 'Inter-SemiBold';
+    font-weight: 600;
     font-size: 0.875rem;
     color: var(--text-white);
     background-color: var(--color-primary);
@@ -283,7 +278,6 @@
 }
 
 .testimonials__card-rating {
-    font-size: 1.25rem;
     font-size: 1.5rem;
     color: var(--color-secondary);
 }
@@ -295,7 +289,7 @@
 }
 
 .testimonials__card-name {
-    font-family: 'Inter-SemiBold';
+    font-weight: 600;
     color: var(--color-primary);
     border-top: 1px solid var(--color-border);
     padding-top: 16px;
