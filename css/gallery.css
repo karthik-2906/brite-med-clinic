@@ -1,9 +1,3 @@
-.banner-img.gallery-banner {
-    object-fit: contain;
-    aspect-ratio: 16/7;
-    background: #dee3e6;
-}
-
 .gallery {
     max-width: 1248px;
     margin: 0 auto;

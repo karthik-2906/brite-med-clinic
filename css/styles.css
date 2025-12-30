@@ -124,6 +124,12 @@ ul {
     border-radius: 20px;
 }
 
+.banner-aspect-ratio {
+    object-fit: contain;
+    aspect-ratio: 16/7;
+    background: #dee3e6;
+}
+
 .banner-img-mobile {
     display: none;
 }
