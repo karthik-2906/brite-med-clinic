@@ -104,6 +104,7 @@
     .intro__title,
     .services__title {
         font-size: 2rem;
+        text-align: center;
     }
 
     .services__card-container {
