@@ -17,7 +17,7 @@
     <meta property="og:url" content="https://www.britemedclinic.com/our-doctors/">
     <meta property="og:type" content="website">
 
-    <link rel="icon" type="image/png" href="../favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
     <link rel="preload" href="../assets/images/banners/britemed-clinic-interior-banner.jpg" as="image">
     <link rel="preload" href="../assets/images/banners/britemed-clinic-interior-banner-mobile.jpg" as="image">
     <link rel="preload" href="../assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
@@ -206,35 +206,90 @@
     <script type="application/ld+json">
     {
     "@context": "https://schema.org",
-    "@type": "MedicalBusiness",
-    "name": "BriteMed Clinic",
-    "url": "https://www.britemedclinic.com/",
-    "logo": "https://www.britemedclinic.com/assets/images/logos/logo.jpeg",
-    "sameAs": [
-        "https://www.facebook.com/britemedclinic/",
-        "https://www.instagram.com/britemedclinic/"
-    ],
-    "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "No. 201, Second Floor, Al Faraj Building, Al Murar, Naif",
-        "addressLocality": "Dubai",
-        "addressRegion": "Dubai",
-        "addressCountry": "AE"
-    },
-    "telephone": "+971545950817",
-    "email": "britemedclinic@gmail.com",
-    "founder": [
+    "@graph": [
         {
-        "@type": "Person",
-        "name": "Dr. Praveen Kumar Subramaniam Thangaraj",
-        "jobTitle": "General Dentist",
-        "image": "https://www.britemedclinic.com/assets/images/doctors/dr-praveen-w-scrubs.jpg",
+        "@type": "WebSite",
+        "name": "BriteMed Clinic",
+        "url": "https://www.britemedclinic.com/"
         },
         {
-        "@type": "Person",
-        "name": "Dr. Abinaya Alagarsamy",
-        "jobTitle": "Orthodontist",
-        "image": "https://www.britemedclinic.com/assets/images/doctors/dr-abinaya.jpeg",
+        "@type": "MedicalBusiness",
+        "@id": "https://www.britemedclinic.com/#medicalbusiness",
+        "name": "BriteMed Clinic",
+        "alternateName": "BriteMed Orthodontic Clinic",
+        "url": "https://www.britemedclinic.com/",
+        "logo": "https://www.britemedclinic.com/assets/images/logos/logo.jpeg",
+        "telephone": "+971545950817",
+        "email": "britemedclinic@gmail.com",
+        "priceRange": "AED 50 - AED 5000",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "No. 201, Second Floor, Al Faraj Building, Al Murar, Naif",
+            "addressLocality": "Dubai",
+            "addressRegion": "Dubai",
+            "addressCountry": "AE"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 25.2744109,
+            "longitude": 55.3023220
+        },
+        "openingHoursSpecification": [
+            {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "13:00",
+            "closes": "21:00"
+            },
+            {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+            "opens": "10:00",
+            "closes": "21:00"
+            },
+            {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Friday",
+            "opens": "13:00",
+            "closes": "21:00"
+            },
+            {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "10:00",
+            "closes": "21:00"
+            }
+        ],
+        "sameAs": [
+            "https://www.facebook.com/britemedclinic/",
+            "https://www.instagram.com/britemedclinic/"
+        ],
+        "founder": [
+            {
+            "@type": "Person",
+            "name": "Dr. Praveen Kumar Subramaniam Thangaraj",
+            "jobTitle": "General Dentist",
+            "image": "https://www.britemedclinic.com/assets/images/doctors/dr-praveen-w-scrubs.jpg"
+            },
+            {
+            "@type": "Person",
+            "name": "Dr. Abinaya Alagarsamy",
+            "jobTitle": "Orthodontist",
+            "image": "https://www.britemedclinic.com/assets/images/doctors/dr-abinaya.jpeg"
+            }
+        ],
+        "employee": [
+            {
+            "@type": "Person",
+            "name": "Dr. Praveen Kumar Subramaniam Thangaraj",
+            "jobTitle": "General Dentist"
+            },
+            {
+            "@type": "Person",
+            "name": "Dr. Abinaya Alagarsamy",
+            "jobTitle": "Orthodontist"
+            }
+        ]
         }
     ]
     }
